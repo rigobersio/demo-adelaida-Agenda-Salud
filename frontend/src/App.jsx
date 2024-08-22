@@ -18,6 +18,7 @@ import NovedadesClinico from './views/novedadesClinico/NovedadesClinico';
 import ListaDePacientes from './views/listaDePacientes/ListaDePacientes';
 import AgendarPaciente from './views/agendarPaciente/AgendarPaciente';
 import MetodoDePagoScreen from './views/metodoDePagoScreen/MetodoDePagoScreen';
+import HomeAdelaida from './views/adelaida/HomeAdelaida';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <Home />,
+      element: <HomeAdelaida />,
       errorElement: <Error />
     },
     {

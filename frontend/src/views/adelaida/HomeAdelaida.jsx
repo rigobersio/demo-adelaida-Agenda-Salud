@@ -1,10 +1,10 @@
-import Navbar from '../components/navbar/Navbar';
-import Main from "../components/main/Main";
-import Footer from '../components/footer/Footer';
+import Navbar from '../../components/adelaidaComponents/NavBarAdelaida';
+import Main from "../../components/main/Main";
+import Footer from '../../components/footer/Footer';
 
-import './home.css';
+//import './home.css';
 
-const Home = () => {
+const HomeAdelaida = () => {
     return (
         <div className='containerGral'>
             <Navbar />
@@ -14,4 +14,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default HomeAdelaida
