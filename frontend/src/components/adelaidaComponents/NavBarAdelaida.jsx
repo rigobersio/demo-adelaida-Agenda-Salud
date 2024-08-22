@@ -20,8 +20,8 @@ const Navbar = () => {
       <Link className="text-white font-bold text-sm hover:text-teal-800 block px-4 py-2" to=''>
         Preguntas
       </Link>
-      <Link className="text-white font-bold text-sm hover:text-teal-800 block px-4 py-2" to='/intranet'>
-        Intranet
+      <Link className="text-blue-600 font-bold text-sm hover:text-teal-800 block px-4 py-2" to='/intranet'>
+        <strong>Intranet</strong>
       </Link>
     </div>
   );
@@ -32,7 +32,7 @@ const Navbar = () => {
         <Link to="/">
           <img
             alt="logo Agenda Salud"
-            src="/logonew.png"
+            src="/logoAdelaida.png"
             className="w-20 h-20 rounded-full object-cover"
           />
         </Link>
@@ -51,8 +51,8 @@ const Navbar = () => {
         <Link className="text-white font-bold text-sm hover:text-teal-600" to=''>
           Preguntas
         </Link>
-        <Link className="text-white font-bold text-sm hover:text-teal-600" to='/intranet'>
-          Intranet
+        <Link className="text-blue-600 font-bold text-sm hover:text-teal-600" to='/intranet'>
+          <strong>Intranet</strong>
         </Link>
       </div>
 
