@@ -91,9 +91,9 @@ const MainAdelaida = () => {
       </section>
 
       {/* Contenedor Últimas Noticias y Servicios */}
-      <div className="flex flex-col lg:flex-row lg:space-x-4">
+      <div className="flex flex-col lg:flex-row lg:space-x-4 lg:justify-between">
         {/* Últimas Noticias */}
-        <section className="bg-gray-200 p-4 rounded-lg lg:w-7/12 space-y-4">
+        <section className="bg-gray-200 p-4 rounded-lg lg:w-auto space-y-4">
           <h2 className="text-xl font-semibold mb-2">Últimas Noticias</h2>
           <div className="space-y-4">
             {noticias.map(noticia => (
@@ -110,7 +110,7 @@ const MainAdelaida = () => {
         </section>
 
         {/* Servicios */}
-        <aside className="bg-gray-200 p-4 rounded-lg lg:w-5/12 space-y-4 mt-4 lg:mt-0">
+        <aside className="bg-gray-200 p-4 rounded-lg lg:w-[30%] space-y-4 mt-4 lg:mt-0">
           <h2 className="text-xl font-semibold">Servicios</h2>
           <ul>
             {servicios.map(servicio => (
